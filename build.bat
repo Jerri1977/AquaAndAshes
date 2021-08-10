@@ -1,4 +1,3 @@
-@echo off
 
 REM Merge assembly files into one, run M4 on it
 python .\build\mergeasm.py .\src\main.z80 > .\bin\raw.z80
